@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_status"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   android:background="@drawable/status_bg"
+    android:weightSum="3"
+    tools:context="com.beanit.mahmoud.blinkrescuer.StatusActivity"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_weight="2.07"
+        android:layout_height="wrap_content">
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView5"
+            android:textAlignment="center"
+            android:textColor="@android:color/background_light"
+            android:textSize="24sp"
+            android:text="Set your status"
+            android:layout_marginTop="10dp" />
+
+        <TextView
+            android:text="Before starting your app , you should set your status ,between offline or online"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView6"
+            android:textAlignment="center"
+            android:textColor="@android:color/background_light"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp" />
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:weightSum="2"
+
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp">
+
+        <Button
+            android:text="Online"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn_online"
+            android:layout_weight="1"
+            android:background="@drawable/greenbtn"
+            android:layout_marginRight="4dp"
+            android:textColor="@android:color/background_light" />
+
+        <Button
+            android:text="Offline"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn_offline"
+            android:layout_weight="1"
+            android:background="@drawable/redbtn"
+            android:layout_marginLeft="4dp"
+            android:textColor="@android:color/background_light" />
+    </LinearLayout>
+
+
+</RelativeLayout>
+    </LinearLayout>
+</LinearLayout>

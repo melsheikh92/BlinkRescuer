@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "509701662159",
+    "firebase_url": "https://rescuer-e3f31.firebaseio.com",
+    "project_id": "rescuer-e3f31",
+    "storage_bucket": "rescuer-e3f31.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:509701662159:android:bee0be7e46af7360",
+        "android_client_info": {
+          "package_name": "com.beanit.mahmoud.blinkrescuer"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "509701662159-tf2v4uq0d9oigqmjm0mj0duu6f4745hp.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.beanit.mahmoud.blinkrescuer",
+            "certificate_hash": "A779AE591DFC99A22C87C57F21C2B3768A0ADDF5"
+          }
+        },
+        {
+          "client_id": "509701662159-0umje8oabj9pnhp5uf3hni8mmerm6lpe.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCgpAGCzyS8j5dVuPiWVcACL3xWW1lt7ts"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "509701662159-0umje8oabj9pnhp5uf3hni8mmerm6lpe.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
